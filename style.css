@@ -1,0 +1,239 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+
+.lmain{
+    background-color: orange;
+    height: 100%;
+    width: 25%;
+    background: linear-gradient( to top,black, orange);
+}
+
+.llmain{
+    background-color: green;
+    height: 100%;
+    width: 25%;
+    background: linear-gradient( to top, black, green);
+}
+
+.lllmain{
+    background-color: rgb(48, 48, 226);
+    height: 100%;
+    width: 25%;
+    background: linear-gradient( to top, black, blue);
+}
+
+.llllmain{
+    background-color: yellow;
+    height: 100%;
+    width: 25%;
+    background: linear-gradient( to top, black, yellow);
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.lmain li{
+    background-color: blanchedalmond; 
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 3em;
+    width: 60%;
+    height: 50px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.lmain li:hover{
+    background-color: brown;
+    color: white;
+    height: 50px;
+    width: 60%;
+}
+
+.llmain li{
+    background-color: blanchedalmond;
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 3em;
+    width: 60%;
+    height: 50px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.llmain li:hover{
+    background-color: brown;
+    color: white;
+    height: 50px;
+    width: 60%;
+}
+
+.lllmain li{
+    background-color: blanchedalmond;
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 3em;
+    width: 60%;
+    height: 50px;
+    list-style-position: inside;
+}
+
+.lllmain li:hover{
+    background-color: brown;
+    color: white;
+    height: 50px;
+    width: 60%;
+}
+
+.llllmain li{
+    background-color: blanchedalmond;
+    line-height: 2em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 3em;
+    width: 60%;
+    height: 50px;
+    list-style-position: inside;
+}
+
+.llllmain li:hover{
+    background-color: brown;
+    color: white;
+    height: 50px;
+    width: 60%;
+}
+
+.nav{ 
+    position: sticky;
+    top: 0;
+}
+
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    font-size: 20px;
+    width: 100%;
+    border: 2px solid white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    float: left;
+}
+.nav a:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.block5{
+   width: 100%;
+   height: 300px;
+   padding: 50px;
+   background-color: aquamarine;
+}
+
+.btn1{
+    width: 300px;
+    height: 70px;
+    background-color: bisque;
+    color: black;
+    padding: 15px 30px;
+    font-size:30px;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid black;
+    display:inline-block;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: rgb(207, 160, 90);
+    color: black;
+    border: 2px solid black;
+}
+
+.btn1:active{
+    background-color: rgb(104, 62, 0);
+    color: white;
+}
+
+form{
+    width: 400px;
+    float: right;
+    display: flex;
+}
+
+input{
+    padding: 10px 20px;
+    border: 1px;
+    font-size: 20px;
+}
+
+.search{
+    width: 100%;
+}
+
+.button{
+    width: 25%;
+    background-color: black;
+    color: aliceblue;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(106, 112, 118);
+    color: aliceblue;
+}
